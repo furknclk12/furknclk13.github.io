@@ -1,0 +1,187 @@
+
+.iletişimp{ /* iletişim paragraf kısmı*/
+    
+    background-color:white;
+    border-radius: 12px;
+    position:absolute;
+   color:teal
+   
+}
+.bg-image{ /* resim boyutu ayarlama */
+  background-position: center;
+  
+  
+  
+}
+.kart{/*Ünlülerden demeçler sözler kısmı */
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    border-radius: 1rem;
+}
+#yazı1{/*Trump yazısı*/
+    color: white;
+    
+}
+#yazı2{/*Robert Kiyosaki cevabı*/
+    color: white;
+    line-height:3ch
+    /*text-align: Justfy;*/
+}
+#baslık1{/*Trump baslık*/
+    color: white;
+    /*text-align: Justfy;*/
+}
+#baslık2{/*Robert Kiyosaki baslık*/
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Networkyazısı{/*Trump cevabı*/
+    color: aqua;
+    text-decoration: underline;
+}
+#cevap{/*Cevabı nedir */
+    color: brown;
+}
+
+.tarihçekısmı{/*tarihçe genel arka plan*/
+    background-color: black;
+    
+}
+.tarihçebaslık{/*tarihçe baslık kısmı*/
+    color:teal;
+}
+.tarihp{/*Tarihçe paragraf kısmı*/
+    color:white;    
+    
+}
+#göster{/*tarih ve saat kısmı*/
+    color: rgb(0, 0, 0);
+    border-radius: 16px;
+    background-color: rgb(18, 221, 218); 
+    border-style: dotted;
+}
+
+/* son kısım*/
+
+#g1{
+color: aqua;
+}
+#g2{
+    color: tomato;
+}
+#btn1{
+    color: turquoise;
+}
+.tıkla2{
+    color: teal;
+}
+
+.tarihsaat{   
+    font-family: 'Courier New', Courier, monospace;
+}
+.iframe1{
+    background-position:right;
+}
+.tanıtma{
+    color: blue;
+}
+
+.c1::before {
+    content: "\25B6";
+    color: black;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  
+  
+  
+  .n1 {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+  }
+
+  #w1 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    display: none;
+  }
+
+#azalt{
+    background: #e71717;
+}
+#arttir{
+    background: #1e6118;
+}
+#sonuc{
+    background: #02222a;
+}
+.puanla{
+    color: #02222a;
+}
+
+.c10 {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .c11 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  
+#snackbar {
+    visibility: hidden; 
+    min-width: 250px; 
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff; 
+    text-align: center; 
+    border-radius: 2px; 
+    padding: 16px;
+    position: fixed;
+    z-index: 1; 
+    left: 50%; 
+    bottom: 30px; 
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
